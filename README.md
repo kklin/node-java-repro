@@ -1,3 +1,7 @@
 ```
-git checkout . && git clean -fd && yarn add java
+docker build -t node-java-repro .
+docker run -it node-java-repro bash
+
+# Run within the container.
+yarn
 ```
