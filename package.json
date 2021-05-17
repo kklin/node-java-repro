@@ -1,0 +1,6 @@
+{
+  "name": "hightouch",
+  "dependencies": {
+    "java": "^0.12.1"
+  }
+}
